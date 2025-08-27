@@ -17,4 +17,4 @@ ENV N8N_BASIC_AUTH_PASSWORD=HaniaPassedBy123
 EXPOSE 5678
 
 # Start n8n with full path
-CMD ["/usr/bin/n8n", "start"]
+CMD ["node", "server.js"]
