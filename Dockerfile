@@ -2,7 +2,6 @@ FROM n8nio/n8n:latest
 
 # Set environment variables
 ENV NODE_ENV=production
-ENV N8N_HOST=localhost 
 ENV N8N_PORT=5678
 ENV N8N_PROTOCOL=http
 ENV N8N_USER_FOLDER=/home/node/.n8n
@@ -15,5 +14,3 @@ ENV N8N_BASIC_AUTH_PASSWORD=HaniaPassedBy123
 
 # Expose port
 EXPOSE 5678
-
-# ✅ Don’t override CMD — base image already starts n8n correctly
