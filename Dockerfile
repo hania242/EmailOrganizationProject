@@ -2,7 +2,7 @@ FROM n8nio/n8n:latest
 
 # Set environment variables
 ENV NODE_ENV=production
-ENV N8N_HOST=localhost n8n start
+ENV N8N_HOST=localhost 
 ENV N8N_PORT=5678
 ENV N8N_PROTOCOL=http
 ENV N8N_USER_FOLDER=/home/node/.n8n
